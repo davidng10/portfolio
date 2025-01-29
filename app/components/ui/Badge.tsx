@@ -6,7 +6,7 @@ export function Badge({
   icon?: React.ReactNode;
 }) {
   return (
-    <div className="bg-stone-100 rounded-md px-3 py-1.5 w-fit flex items-center gap-2">
+    <div className="bg-stone-100 rounded px-3 py-1.5 w-fit flex items-center gap-2">
       {icon}
       <div className="text-sm">{label}</div>
     </div>

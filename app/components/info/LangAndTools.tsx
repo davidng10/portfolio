@@ -5,10 +5,10 @@ interface LangAndToolsType {
 }
 
 const languages: LangAndToolsType[] = [
-  { name: "C" },
   { name: "TypeScript" },
   { name: "JavaScript" },
   { name: "Python" },
+  { name: "C" },
   { name: "Html" },
   { name: "CSS" },
 ];
@@ -25,9 +25,9 @@ const tools: LangAndToolsType[] = [
 
 export function LangAndTools() {
   return (
-    <div className="flex flex-col gap-8 py-4">
+    <div className="flex flex-col gap-4 py-12">
       <div className="flex flex-col gap-2">
-        <p>Languages</p>
+        <p className="text-stone-700">Languages</p>
         <div className="flex gap-2 flex-wrap">
           {languages.map((language) => (
             <Badge key={language.name} label={language.name} />
@@ -35,7 +35,7 @@ export function LangAndTools() {
         </div>
       </div>
       <div className="flex flex-col gap-2">
-        <p>Tools and frameworks</p>
+        <p className="text-stone-700">Tools and frameworks</p>
         <div className="flex gap-2 flex-wrap">
           {tools.map((tool) => (
             <Badge key={tool.name} label={tool.name} />

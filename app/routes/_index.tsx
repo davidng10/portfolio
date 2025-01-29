@@ -1,16 +1,14 @@
-import type { MetaFunction } from "@remix-run/node";
 import { Hero } from "~/components/info/Hero";
 import { LangAndTools } from "~/components/info/LangAndTools";
-
-export const meta: MetaFunction = () => {
-  return [{ title: "Wen Bin" }];
-};
+import { Projects } from "~/components/ui/Projects";
+import { projects } from "~/data";
 
 export default function Index() {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <Hero />
       <LangAndTools />
+      <Projects projects={projects} />
     </div>
   );
 }
