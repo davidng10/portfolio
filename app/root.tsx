@@ -19,8 +19,13 @@ export const links: LinksFunction = () => [
     crossOrigin: "anonymous",
   },
   {
+    rel: "icon",
+    href: "/favicon.ico",
+    type: "image/x-icon",
+  },
+  {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+    href: "https://fonts.googleapis.com/css2?family=Figtree&family=Inter:opsz@14..32&family=Source+Serif+4:opsz@8..60&display=swap",
   },
 ];
 
