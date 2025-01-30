@@ -23,7 +23,7 @@ export function Navbar() {
             >
               {item.label}
             </Link>
-            {isActive && <Stroke className="absolute w-full top-1/2 h-min" />}
+            {isActive && <Stroke className="absolute w-full h-min" />}
           </div>
         );
       })}
