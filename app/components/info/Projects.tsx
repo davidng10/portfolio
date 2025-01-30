@@ -35,13 +35,13 @@ export function Projects({ projects }: ProjectsProps) {
             onClick={() => scrollNext("prev")}
             className="p-2 rounded-full hover:bg-stone-100 transition-colors"
           >
-            <CaretLeft className="w-6 h-6" />
+            <CaretLeft className="w-6 h-6" aria-hidden="true" />
           </button>
           <button
             onClick={() => scrollNext("next")}
             className="p-2 rounded-full hover:bg-stone-100 transition-colors"
           >
-            <CaretRight className="w-6 h-6" />
+            <CaretRight className="w-6 h-6" aria-hidden="true" />
           </button>
         </div>
       </div>
