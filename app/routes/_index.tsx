@@ -1,6 +1,6 @@
 import { Hero } from "~/components/info/Hero";
 import { LangAndTools } from "~/components/info/LangAndTools";
-import { Projects } from "~/components/ui/Projects";
+import { Projects } from "~/components/info/Projects";
 import { projects } from "~/data";
 
 export default function Index() {
