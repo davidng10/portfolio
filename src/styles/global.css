@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+@font-face {
+  font-family: "Signifier";
+  src: url("/fonts/Signifier-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Signifier";
+  src: url("/fonts/Signifier-Bold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Sohne";
+  src: url("/fonts/Sohne-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Sohne";
+  src: url("/fonts/Sohne-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Sohne";
+  src: url("/fonts/Sohne-Bold.otf");
+  font-weight: 600;
+}
+
+@theme {
+  --font-sans: "Sohne", ui-sans-serif, system-ui, -apple-system,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: "Signfiier", ui-serif, Georgia, Cambria, Times New Roman, Times,
+    serif;
+}

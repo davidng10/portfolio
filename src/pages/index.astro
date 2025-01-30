@@ -1,0 +1,15 @@
+---
+import { Hero } from "../components/info/Hero";
+import { LangAndTools } from "../components/info/LangAndTools";
+import { Projects } from "../components/info/Projects";
+import { projects } from "../data/projects";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <div class="flex flex-col">
+    <Hero />
+    <LangAndTools />
+    <Projects projects={projects} client:load />
+  </div>
+</Layout>
