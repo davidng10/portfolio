@@ -27,7 +27,6 @@ export function Navbar({ currentPath }: NavbarProps) {
             >
               {item.label}
             </a>
-            {isActive && <Stroke className="absolute w-full h-min" />}
           </div>
         );
       })}
