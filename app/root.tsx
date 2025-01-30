@@ -15,20 +15,10 @@ import { Navbar } from "./components/Navbar";
 import { NotFound } from "./components/NotFound";
 
 export const links: LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  {
-    rel: "preconnect",
-    href: "https://fonts.gstatic.com",
-    crossOrigin: "anonymous",
-  },
   {
     rel: "icon",
     href: "/favicon.ico",
     type: "image/x-icon",
-  },
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Figtree&family=Inter:opsz@14..32&family=Source+Serif+4:opsz@8..60&display=swap",
   },
 ];
 
