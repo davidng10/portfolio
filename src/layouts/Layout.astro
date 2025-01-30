@@ -14,7 +14,7 @@ import { Navbar } from "../components/Navbar";
     <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
   <body>
-    <Navbar currentPath={Astro.url.pathname} />
+    <Navbar currentPath={Astro.url.pathname} client:load />
     <slot />
   </body>
 </html>
