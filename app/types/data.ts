@@ -4,3 +4,7 @@ export type Project = {
   description: string;
   githubUrl: string;
 };
+
+export type SkillItem = {
+  name: string;
+};
