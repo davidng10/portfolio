@@ -1,7 +1,7 @@
 import { Hero } from "~/components/info/Hero";
 import { LangAndTools } from "~/components/info/LangAndTools";
 import { Projects } from "~/components/info/Projects";
-import { projects } from "~/data";
+import { projects } from "~/data/projects";
 
 export default function Index() {
   return (

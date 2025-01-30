@@ -1,4 +1,4 @@
-import { Project, SkillItem } from "./types/data";
+import { Project } from "../types/data";
 
 export const projects: Project[] = [
   {
@@ -34,23 +34,4 @@ export const projects: Project[] = [
     image: "./assets/react-candlelight.jpg",
     githubUrl: "https://github.com/wenbin-dev/project-1",
   },
-];
-
-export const languages: SkillItem[] = [
-  { name: "TypeScript" },
-  { name: "JavaScript" },
-  { name: "Python" },
-  { name: "C" },
-  { name: "Html" },
-  { name: "CSS" },
-];
-
-export const tools: SkillItem[] = [
-  { name: "React" },
-  { name: "Remix" },
-  { name: "Next.js" },
-  { name: "Git" },
-  { name: "Gitlab" },
-  { name: "GraphQL" },
-  { name: "Figma" },
 ];

@@ -7,4 +7,5 @@ export type Project = {
 
 export type SkillItem = {
   name: string;
+  icon?: React.ReactNode;
 };
