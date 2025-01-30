@@ -16,7 +16,9 @@ export function Navbar() {
             key={item.href}
           >
             <Link
-              className={clsx(!isActive && "hover:text-blue-500")}
+              className={clsx(
+                !isActive && "hover:text-blue-500 transition-colors"
+              )}
               to={item.href}
             >
               {item.label}

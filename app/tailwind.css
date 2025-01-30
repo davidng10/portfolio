@@ -10,6 +10,12 @@
   }
 
   @font-face {
+    font-family: "Signifier";
+    src: url("/fonts/Signifier-Bold.otf");
+    font-weight: 600;
+  }
+
+  @font-face {
     font-family: "Sohne";
     src: url("/fonts/Sohne-Regular.otf");
     font-weight: normal;
@@ -20,16 +26,27 @@
     src: url("/fonts/Sohne-Light.otf");
     font-weight: 300;
   }
+
+  @font-face {
+    font-family: "Sohne";
+    src: url("/fonts/Sohne-Bold.otf");
+    font-weight: 600;
+  }
 }
 
 html,
 body {
-  @apply bg-white;
-  width: 80%;
-  margin: 24px auto;
-  font-size: 16px;
+  background-color: #fff;
   font-optical-sizing: auto;
   color: #090b0a;
+  margin: 0 auto;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  padding-inline: 24px;
+  width: 80%;
 }
 
 @media (max-width: 1024px) {

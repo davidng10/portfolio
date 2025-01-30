@@ -2,7 +2,7 @@ export type Project = {
   image: string;
   title: string;
   description: string;
-  githubUrl: string;
+  url?: string;
 };
 
 export type SkillItem = {

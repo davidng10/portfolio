@@ -11,6 +11,7 @@ import Git from "react-devicons/git/original";
 import Gitlab from "react-devicons/gitlab/original";
 import GraphQL from "react-devicons/graphql/plain";
 import Figma from "react-devicons/figma/original";
+import AWS from "react-devicons/amazonwebservices/original-wordmark";
 
 export const languages: SkillItem[] = [
   { name: "TypeScript", icon: <TypeScript /> },
@@ -29,4 +30,5 @@ export const tools: SkillItem[] = [
   { name: "Gitlab", icon: <Gitlab /> },
   { name: "GraphQL", icon: <GraphQL /> },
   { name: "Figma", icon: <Figma /> },
+  { name: "AWS", icon: <AWS /> },
 ];
