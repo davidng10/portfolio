@@ -2,7 +2,11 @@ import { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { Project } from "~/types/data";
 import { SectionLabel } from "../ui/SectionLabel";
-import { ArrowUpRight, CaretLeft, CaretRight } from "@phosphor-icons/react";
+import {
+  CaretLeft,
+  ArrowUpRight,
+  CaretRight,
+} from "@phosphor-icons/react/dist/ssr";
 
 interface ProjectsProps {
   projects: Project[];
