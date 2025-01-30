@@ -1,14 +1,13 @@
 import {
   Links,
   Meta,
-  MetaFunction,
   Outlet,
   Scripts,
   ScrollRestoration,
   useRouteError,
   isRouteErrorResponse,
 } from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/node";
+import type { MetaFunction, LinksFunction } from "@vercel/remix";
 
 import "./tailwind.css";
 
