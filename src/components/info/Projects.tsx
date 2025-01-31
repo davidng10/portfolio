@@ -13,7 +13,8 @@ interface ProjectsProps {
 export function Projects({ projects }: ProjectsProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
-    dragFree: true,
+    slidesToScroll: "auto",
+    dragFree: false,
   });
 
   const scrollNext = useCallback(
