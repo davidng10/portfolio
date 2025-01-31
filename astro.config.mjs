@@ -19,4 +19,5 @@ export default defineConfig({
       lastmod: new Date("2025-01-30"),
     }),
   ],
+  trailingSlash: "never",
 });
