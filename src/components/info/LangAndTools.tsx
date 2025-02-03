@@ -7,11 +7,15 @@ const renderTools = (label: string, items: SkillItem[]) => {
   return (
     <div className="flex flex-col py-4">
       <SectionLabel label={label} />
-      <div className="flex w-fit gap-2 flex-wrap ">
+      <ul className="flex w-fit gap-2 flex-wrap ">
         {items.map((item, idx) => {
-          return <Badge key={idx} label={item.name} icon={item.icon} />;
+          return (
+            <li key={idx}>
+              <Badge label={item.name} icon={item.icon} />
+            </li>
+          );
         })}
-      </div>
+      </ul>
     </div>
   );
 };
