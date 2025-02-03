@@ -1,6 +1,7 @@
 import { NAVIGATION_ITEMS } from "../constants/Navigation";
 import { Stroke } from "./ui/Stroke";
 import clsx from "clsx";
+import { removeTrailingSlash } from "../utils/formatting";
 
 interface NavbarProps {
   currentPath: string;
@@ -10,7 +11,7 @@ export function Navbar({ currentPath }: NavbarProps) {
   return (
     <div className="flex items-center justify-end gap-8 text-xl py-14 font-light">
       {NAVIGATION_ITEMS.map((item) => {
-        const isActive = currentPath === item.href;
+        const isActive = removeTrailingSlash(currentPath) === item.href;
         return (
           <div
             className="flex items-center justify-center relative"
