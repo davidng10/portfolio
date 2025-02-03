@@ -37,3 +37,9 @@
   --font-serif: "Signfiier", ui-serif, Georgia, Cambria, Times New Roman, Times,
     serif;
 }
+
+@utility prose {
+  h1 {
+    font-family: var(--font-serif);
+  }
+}
